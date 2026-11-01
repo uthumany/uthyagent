@@ -1,6 +1,6 @@
 # UthyAgent
 
-UthyAgent is a local-first Linux desktop computer-use agent in early development, initially targeting Zorin OS 18.1 Core and compatible GNOME desktops. This local source tree contains a tested foundation for a cautious observe–plan–act–verify loop, a GTK4 dashboard with the supplied logo and light/dark themes, an OpenAI-compatible provider adapter, local task history, and an X11 automation path when the required desktop tools are installed.
+UthyAgent is a local-first Linux desktop computer-use agent in early development, initially targeting Zorin OS 18.1 Core and compatible GNOME desktops. This public repository contains a tested foundation for a cautious observe–plan–act–verify loop, a GTK4 dashboard with the supplied logo and light/dark themes, an OpenAI-compatible provider adapter, local task history, and an X11 automation path when the required desktop tools are installed.
 
 This is an alpha implementation, not the complete product described in the project specification. General Wayland input automation, full AT-SPI coverage, computer vision, voice, Telegram, MCP management, workflows, automatic screenshot retention, installer artifacts, AppImage/RPM release builds, and Flathub publication are not represented as completed features. GTK window construction and Zorin OS 18.1 compatibility have not been verified in this sandbox.
 
@@ -71,4 +71,4 @@ The new project is licensed under MIT as approved by the project owner; see [LIC
 
 ## Status
 
-The public repository is being initialized from this alpha tree. There is no published software release, `.deb`, RPM, AppImage, Flatpak listing, or stable Zorin compatibility claim. See [release status](docs/release-status.md) for what is implemented and checked.
+The [public repository](https://github.com/uthumany/uthyagent) contains the initial alpha source. There is no published software release, `.deb`, RPM, AppImage, Flatpak listing, or stable Zorin compatibility claim. See [release status](docs/release-status.md) for what is implemented and checked.

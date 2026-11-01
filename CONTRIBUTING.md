@@ -22,4 +22,4 @@ Keep GTK optional for core imports and unit tests. Add fake collaborators for en
 - Do not claim Wayland or distribution support without a real test on that environment.
 - For UI work, check keyboard access, focus visibility, contrast, and reduced-motion behavior.
 
-The project is MIT-licensed as approved by its owner. Public contributions are welcome once the repository is available; follow the pull-request template and do not submit unlicensed code, private information, or unsupported platform claims.
+The project is MIT-licensed as approved by its owner. Public contributions are welcome through GitHub pull requests; follow the pull-request template and do not submit unlicensed code, private information, or unsupported platform claims.

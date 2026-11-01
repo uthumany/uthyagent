@@ -9,6 +9,8 @@ UthyAgent is an early alpha source tree. It is not an initial release and is not
 - Source and wheel distributions build.
 - The command-line diagnostic and version/help entry points run.
 - The app logo is included as a package resource.
+- The public MIT-licensed initial source is on [`uthumany/uthyagent`](https://github.com/uthumany/uthyagent), branch `main`, commit `0ed16df`.
+- GitHub Actions [Tests](https://github.com/uthumany/uthyagent/actions/runs/41332356174) and [Build Python distributions](https://github.com/uthumany/uthyagent/actions/runs/41332356185) passed for the initial push.
 
 ## Not verified or not available
 
@@ -19,7 +21,6 @@ UthyAgent is an early alpha source tree. It is not an initial release and is not
 - Wayland interaction is unsupported beyond conservative capability reporting.
 - No `.deb`, RPM, AppImage, Flatpak, signatures, checksums, release manifest, release tag, or tested upgrade/uninstall path exists.
 - Voice, Telegram, MCP, workflows, background services, and application connector management are not implemented.
-- MIT licensing and public publication to `uthumany/uthyagent` have been approved by the project owner; initial repository creation/push is in progress.
 - Flathub submission has not been prepared or filed.
 
 Do not label the project stable or advertise the missing capabilities until they have working implementations, tests, and release evidence.
