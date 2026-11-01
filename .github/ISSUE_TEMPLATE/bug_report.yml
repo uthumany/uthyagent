@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible UthyAgent alpha issue
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include API keys, task history databases, screenshots with personal data, or other secrets.
+  - type: input
+    id: version
+    attributes:
+      label: UthyAgent version or commit
+      placeholder: 0.1.0 or short commit hash
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Distribution and version
+      placeholder: Zorin OS version, Ubuntu version, etc.
+    validations:
+      required: true
+  - type: input
+    id: session
+    attributes:
+      label: Desktop/session type
+      placeholder: GNOME on X11, GNOME on Wayland, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostic output
+      description: Remove hostnames, usernames, paths, prompts, API responses, and personal text where needed.

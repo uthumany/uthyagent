@@ -1,0 +1,8 @@
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include SECURITY.md
+recursive-include .github *.md *.yml
+recursive-include docs *.md
+recursive-include packaging *.desktop *.md
+recursive-include packaging control
+recursive-include scripts *.sh

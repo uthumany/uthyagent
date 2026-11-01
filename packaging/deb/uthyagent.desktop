@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=UthyAgent
+Comment=Early-alpha Linux desktop computer-use assistant
+Exec=uthyagent
+Icon=uthyagent
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=assistant;desktop;GTK;Linux;
+StartupNotify=true

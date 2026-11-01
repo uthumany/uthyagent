@@ -1,0 +1,26 @@
+name: Feature request
+description: Propose a UthyAgent capability
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or user need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Distribution and desktop session
+      placeholder: Zorin OS / GNOME on X11, etc.
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Required permissions and data flow
+      description: Explain what the app would observe, change, or send off-device.

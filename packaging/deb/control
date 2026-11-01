@@ -1,0 +1,13 @@
+Package: uthyagent
+Section: utils
+Priority: optional
+Maintainer: uthyagent contributors <maintainers@example.invalid>
+Architecture: all
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-4.0
+Recommends: xdotool, libsecret-tools, at-spi2-core, tesseract-ocr, gnome-screenshot
+Description: alpha Linux-first Python/GTK4 desktop computer-use assistant
+ UthyAgent is an early-alpha Linux-first Python/GTK4 desktop application.
+ .
+ X11 automation is best-effort and requires local desktop tools. General
+ Wayland input automation is not implemented. Telegram, MCP, and voice
+ integrations are not included in this alpha.
